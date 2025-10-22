@@ -1,0 +1,26 @@
+name: BedrockDonateEconomy
+version: 1.0.1
+api: [5.0.0]
+author: b527
+main: cooldogedev\BedrockDonateEconomy\BedrockDonateEconomy
+description: A donate-based economy plugin for PocketMine-MP
+load: STARTUP
+permissions:
+  bedrockdonateeconomy.command.dbalance:
+    description: View your donate balance
+    default: true
+  bedrockdonateeconomy.command.dpay:
+    description: Pay others with donate currency
+    default: true
+  bedrockdonateeconomy.command.drich:
+    description: View top donate balances
+    default: true
+  bedrockdonateeconomy.command.daddbalance:
+    description: Add donate balance to a player
+    default: op
+  bedrockdonateeconomy.command.dremovebalance:
+    description: Remove donate balance from a player
+    default: op
+  bedrockdonateeconomy.command.dsetbalance:
+    description: Set a player's donate balance
+    default: op
